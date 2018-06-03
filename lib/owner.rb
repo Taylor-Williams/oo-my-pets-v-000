@@ -21,7 +21,7 @@ class Owner
     @@owners = []
   end
 
-  def species(species)
-    @species = species
+  def species(spec)
+    @species = spec
   end
 end
