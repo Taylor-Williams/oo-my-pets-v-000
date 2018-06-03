@@ -45,4 +45,8 @@ class Owner
   def play_with_cats
     @pets[:cats].map { |c| c.mood = "happy" }
   end
+
+  def feed_fish
+    @pets[:fishes].map { |f| f.mood = "happy" }
+  end
 end
