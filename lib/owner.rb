@@ -49,4 +49,12 @@ class Owner
   def feed_fish
     @pets[:fishes].map { |f| f.mood = "happy" }
   end
+
+  def sell_pets
+    
+  end
+
+  def list_pets
+    "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cats(s)."
+  end
 end
