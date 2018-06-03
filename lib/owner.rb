@@ -6,8 +6,13 @@ class Owner
     @@owners << self
   end
   # code goes here
+
+  def self.count
+    @@owners.length
+  end
+  
   def self.all
-    @@owners    
+    @@owners
   end
 
   def self.reset_all
