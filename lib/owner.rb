@@ -6,7 +6,7 @@ class Owner
   end
   # code goes here
   def self.all
-    @@owners    
+    @@owners
   end
 
   def self.reset_all
